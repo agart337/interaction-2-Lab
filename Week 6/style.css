@@ -1,0 +1,81 @@
+    body {
+        background: #FFF;
+        color: #111;
+        font-family: arial;
+    }
+
+    #wrapper {
+        width: 960px;
+        margin: 20px auto;
+    }
+
+    h1 {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 3em;
+        font-weight: normal;
+        margin: 0;
+        padding: 0.5em;
+        background: #222;
+        color: pink;
+        border-radius: 2em;
+    }
+
+    h1 .center {
+        display: block;
+        width: 960px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    h1 a {
+        color: #FFF;
+    }
+
+    h1 small {
+        font-size: .4em;
+    }
+
+    h2 {
+        margin: 2em 0 0;
+        text-align: center;
+        border-bottom: 2px solid #111;
+    }
+
+    a {
+        color: #111;
+    }
+
+    p {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: large;
+        font-weight: 800;
+        padding: .3em 0;
+        text-align: center;
+        line-height: 2em;
+    }
+
+    label {
+        font-family: 'Courier New', Courier, monospace;
+        font-weight: 400;
+        font-size: medium;
+        padding: .3em 0;
+        text-align: center;
+        line-height: 2em;
+
+    }
+
+    form {
+        background: #eee;
+        padding: 10px;
+        margin: 10px 100px;
+
+    }
+
+    input {
+        line-height: 2em;
+        background-color: pink;
+    }
+
+    button {
+        background-color: white;
+    }
