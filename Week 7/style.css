@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Remember this allows the width of the element to auto-include the padding and border */
+}
+
+.envelope1 {
+    width: 100%;
+    background-color: rgb(0, 201, 67);
+}
+
+.box1 {
+    width: 50vw;
+    height: 55.5vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: rgb(255, 115, 0);
+    color: white;
+    text-align: center;
+}
+
+.envelope2 {
+    width: 100%;
+    background-color: rgb(255, 0, 136);
+}
+
+.box2 {
+    width: 50vw;
+    height: 55.5vw;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: rgb(0, 191, 255);
+    color: white;
+    text-align: center;
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
