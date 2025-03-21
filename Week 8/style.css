@@ -1,0 +1,128 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     overscroll-behavior: none;
+ }
+
+ .container {
+     padding-left: 1em;
+     text-align: center;
+     justify-content: center;
+     position: relative;
+     font-size: 3em;
+     display: flex;
+     align-items: center;
+     gap: 10px;
+     background-color: rgb(252, 108, 197);
+ }
+
+ .image {
+     width: 200px;
+     /* Adjust as needed */
+     height: auto;
+ }
+
+ body {
+     height: 200vh;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     /* Enables scrolling */
+     background-color: rgb(255, 255, 119);
+ }
+
+ /* Envelope (Container) */
+ .envelope {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 10px;
+     padding: 20px;
+     height: 100vh;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 1.5em;
+     text-align: left;
+     position: relative;
+ }
+
+
+ /* Column Style */
+ .column {
+     height: 200px;
+     padding: 1em;
+     text-align: center;
+ }
+
+
+ /* Positioning Variations */
+ .static-box {
+     position: static;
+     /* If position is not specified, static is the default */
+     width: 100%;
+     /* This div follows the normal flow, so 100% will mean 20% of the envelope  */
+
+     background-color: #dc88c9;
+ }
+
+ .relative-box {
+     position: relative;
+     width: 100%;
+     /* This div follows the normal flow, so 100% will mean 20% of the envelope  */
+     top: 10px;
+
+     background-color: #93abd1;
+ }
+
+ .absolute-box {
+     position: absolute;
+     width: 97%;
+     top: 480px;
+     background-color: rgb(127, 240, 255);
+     z-index: -10;
+     /* Z-index by default is 0 for elements other than static */
+ }
+
+ .fixed-box {
+     position: fixed;
+     width: 15%;
+     height: 20%;
+     border-radius: 5%;
+     border-color: bisque;
+     border-width: 2px;
+     top: 3vh;
+     /* Out-of-flow: positioned according to the viewport */
+     left: 3%;
+     /* Out-of-flow: positioned according to the viewport */
+     background-color: coral;
+ }
+
+ /* Spacing for scroll effect */
+ .spacer {
+     height: 1vh;
+     /* Forces more scrolling */
+ }
+
+ a {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 75%;
+     height: 25%;
+     margin: 0 auto;
+     background-color: white;
+     color: black;
+     text-decoration: none;
+     border-radius: 1em;
+
+     transition: transform 0.5s ease-in-out;
+     /* property duration timing-function */
+ }
+
+ a:hover {
+     background-color: bisque;
+
+     transform: translate(0.5em);
+     /* X, Y; think of this like relative positioning */
+     transition: transform 0.5s ease-in-out;
+     /* property duration timing-function */
+     /* Translate is generally more efficient and less taxing on the processor; and so we use it for effects */
+ }
