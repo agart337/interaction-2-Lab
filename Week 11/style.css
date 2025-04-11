@@ -1,0 +1,91 @@
+.comic-neue-light {
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.comic-neue-regular {
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.comic-neue-bold {
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.comic-neue-light-italic {
+    font-family: "Comic Neue", cursive;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.comic-neue-regular-italic {
+    font-family: "Comic Neue", cursive;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.comic-neue-bold-italic {
+    font-family: "Comic Neue", cursive;
+    font-weight: 700;
+    font-style: italic;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    padding: 20px;
+}
+
+.controls-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+#container {
+    transition: .5s;
+}
+
+/* Finished class example */
+.clean {
+    margin: 0 auto;
+    max-width: 40em;
+    padding: 20px;
+    font-family: sans-serif;
+    color: #333;
+    font-size: 24px;
+    line-height: 1.4em;
+}
+
+/* Add your new classes here! */
+.pretty {
+    margin: 0 auto;
+    padding: 1em;
+    font-style: italic;
+    font-size: 2em;
+    max-width: 30em;
+    color: rgb(255, 37, 120);
+    background-color: rgb(91, 184, 255);
+}
+
+.ugly {
+    font-family: "Comic Neue", cursive;
+    font-size: 2em;
+    padding: 2em;
+}
