@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 4em;
+    padding-top: 15em;
+    background-color: white;
+}
+
+button {
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: pink;
+    border-radius: 0.5em;
+    font-size: 2em;
+    padding: 1em;
+    gap: 3em;
+    border-color: black;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+#output {
+    text-align: center;
+    margin: 0em;
+    padding: 2em;
+    font-size: 2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 0.5em;
+}
